@@ -18,7 +18,7 @@ if($today_date->format('l')== "Monday"){
 }
 
 if($today_date->format('F')== "October"){
-    echo'We are on Monday';
+    echo'We are on October';
 }else{
     echo 'We are in '.$today_date->format('F');
 }
